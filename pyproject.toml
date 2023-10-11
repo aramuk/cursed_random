@@ -1,0 +1,22 @@
+[project]
+name = "cursed_random"
+version = "0.0.1"
+authors = [
+  { name="aramuk", email="27091329+aramuk@users.noreply.github.com" },
+]
+description = "A horrific drop-in for the Python random library."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "TODO"
+"Bug Tracker" = "TODO"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
